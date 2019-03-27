@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    display: flow-root;
+    margin: 10px auto;
+    width: 840px;
+    background-color: white;
+}
+
+.full_section {
+    height: 680px;
+    display: flex;
+    justify-content: center;
+}
+
+.sec-1 {
+    width: 410px;
+    height: 661px;
+    margin-top: 10px;
+    background-image: url(../images/note_check.jpg);
+    background-repeat: no-repeat;
+    background-size: 410px;
+}
+
+.content {
+    height: 610px;
+    padding: 30px 50px 20px;
+    font-family: sans-serif;
+}
+
+.sec-2 {
+    margin-top: 10px;
+    width: 410px;
+    height: 661px;
+    background-color: #B14D59;
+}
+
+.agreement_block {
+    display: inline-grid;
+}
+
+.agreement {
+    text-align: left;
+    text-transform: uppercase;
+    ;
+    color: white;
+}
+
+.agreement:hover {
+    color: #d9d9d9;
+}
+
+.content img {
+    display: block;
+    cursor: pointer;
+}
+
+.content p {
+    color: white;
+    line-height: 19px;
+    font-size: 12px;
+    width: 270px;
+    padding: 78px 0px 217px;
+}

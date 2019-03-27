@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: darkgray;
+}
+
+.background {
+    margin: auto;
+    width: 800px;
+    background-color: white;
+    background: 1px solid black;
+    padding: 5px;
+}
+
+.image {
+    background-image: url(../images/barak.jpg);
+    background-size: cover;
+}
+
+.article {
+    background: 1px solid black;
+    width: 317px;
+    height: 600px;
+    margin-left: 86px;
+}
+
+.content {
+    padding-top: 150px;
+    font-family: sans-serif;
+}
+
+.content h5 {
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.content h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.paragraf {
+    line-height: 21px;
+    font-size: 14px;
+    margin-bottom: 11px;
+}
+
+.author {
+    font-size: 10px;
+    margin-top: 20px;
+}

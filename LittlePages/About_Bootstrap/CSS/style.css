@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 1000px;
+    height: 590px;
+    background-color: darkgray;
+    margin: auto;
+}
+
+.container p {
+    padding: 20px 0px;
+    text-align: left;
+    font-size: 17px;
+}
+
+.headcontent {
+    padding: 0px 100px;
+}
+
+.first_paragraf {
+    display: inline-block;
+    color: white;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+.fisrshead {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+}
+
+.first_paragraf p {
+    display: inline-block;
+    text-align: left;
+}
+
+.second_paragraf {
+    display: inline-block;
+    color: white;
+    margin: auto;
+    padding: 20px 60px;
+}
+
+.sechead {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+}
+
+.second_paragraf p {
+    display: inline-block;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: azure;
+    border: 6px solid black;
+}

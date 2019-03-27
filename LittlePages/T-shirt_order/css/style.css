@@ -1,0 +1,138 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #989e5b;
+    padding-top: 30px;
+}
+
+#content {
+    background-color: #aeb3b7;
+    width: 760px;
+    margin: auto;
+    font-family: sans-serif;
+    display: flex;
+}
+
+#left_nav {
+    width: 280px;
+    height: 430px;
+    display: block;
+    background-color: #bbbbb5;
+    margin: 5px 0px 5px 5px;
+    box-sizing: border-box;
+    background-image: url(../Images/codepen_T-shirt.png);
+    background-size: cover;
+}
+
+#left_nav.img {
+    width: 280px;
+    height: 430px;
+}
+
+.balance_con {
+    padding-left: 40px;
+    padding-top: 280px;
+}
+
+#left_nav h2 {
+    padding-bottom: 4px;
+    color: #d7edaa;
+    font-size: 20px
+}
+
+#rigth_nav {
+    width: 470px;
+    height: 430px;
+    display: block;
+    margin: 5px 5px 5px 0px;
+    background-color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#rigth_nav h2 {
+    margin: 65px 0px 45px 96px;
+    display: -webkit-inline-box;
+}
+
+#rigth_nav span {
+    font-size: 30px;
+    font-weight: bold;
+    position: flex;
+    box-sizing: content-box;
+    padding-left: 60px;
+    padding-bottom: 14px;
+}
+
+#rigth_nav span a {
+    text-decoration: none;
+    color: black;
+}
+
+#left_nav span {
+    font-size: 28px;
+    display: inline-block;
+    font-weight: 600;
+    color: white;
+}
+
+#left_nav span:last-child {
+    font-size: 15px;
+    margin-top: 15px
+}
+
+#left_nav .border {
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 25px;
+    color: #d7edaa;
+}
+
+.balance_con a {
+    color: #d7edaa;
+    text-decoration: none;
+}
+
+.paragraf {
+    width: 400px;
+    padding: 0px;
+    margin: 0px 36px 20px 36px;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.input {
+    width: 380px;
+    height: 45px;
+    border: 2px solid #6026b7;
+    padding-left: 15px;
+    color: #99999e;
+    font-size: 14px;
+    font-weight: 600;
+    margin: auto;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.button {
+    background-color: #6907fc;
+    float: left;
+    color: white;
+    margin: 22px 160px 0px 160px;
+    width: 140px;
+    height: 40px;
+    border-style: none;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: sans-serif;
+    box-shadow: 5px 5px 15px #6907fc;
+}
+
+.button:active {
+    width: 135px;
+    height: 38px;
+}

@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #263956;
+}
+
+.full_blog {
+    margin: auto;
+    width: 900px;
+    background-color: white;
+    height: 620px;
+}
+
+.header {
+    margin: auto;
+    height: 150px;
+    text-align: center;
+}
+
+.header h1 {
+    font-family: 'Source Serif Pro', serif;
+    margin: auto;
+    padding: 20px 0px;
+    font-size: 2.5em;
+    font-family:
+}
+
+.header span {
+    margin: auto;
+    font-size: 1.4em;
+    padding: 0px 0px;
+    font-family: 'Courgette', cursive;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px 0px;
+}
+
+.text {
+    height: 300px;
+    width: 390px;
+}
+
+.text p {
+    font-size: 18px;
+    align-content: stretch;
+    text-align: border-path;
+    display: block;
+    padding: 10px;
+    text-align: justify;
+    text-underline-position: ;
+    line-height: 27px;
+}
+
+.register span {
+    display: block;
+    font-size: 25px;
+    font-weight: 600;
+    margin: auto;
+    width: 370px;
+    text-align: center;
+}
+
+.register button {
+    margin: auto;
+    display: block;
+    margin-top: 39px;
+    margin-bottom: 20px;
+    width: 160px;
+    height: 45px;
+    background-color: white;
+    border-style: none;
+    border-radius: 4px;
+    border: 1px solid darkgrey;
+    cursor: pointer;
+    outline: none;
+}
+
+.register button:active {
+    -webkit-box-shadow: inset -1px 2px 91px -38px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset -1px 2px 91px -38px rgba(0, 0, 0, 0.75);
+    box-shadow: inset -1px 2px 91px -38px rgba(0, 0, 0, 0.75);
+    font-size: 13px;
+}
+
+.register button a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    text-transform: uppercase;
+    outline: none;
+}
